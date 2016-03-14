@@ -8,6 +8,6 @@
 
 import UIKit
 
-class FormView: UIView {
-    
+class FormViewCell: UITableViewCell {
+	@IBOutlet weak var formInput: UITextField!
 }
