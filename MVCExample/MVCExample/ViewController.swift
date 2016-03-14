@@ -12,14 +12,21 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
+    
+    func login(user: User) -> Bool {
+        /*
+            1) API request
+            2) Read response
+            3) If user is created, he is saved to persistent storage and it is returned true
+        */
+        
+        return false
+    }
 
 }
 
