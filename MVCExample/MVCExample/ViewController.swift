@@ -31,8 +31,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             2) Read response
             3) If user is created on server, he is saved to persistent storage
         */
-        let user = User(userName: userName, email: email, password: password)
-        print(user.description)
+        if userName != nil && email != nil && password != nil {
+            let user = User(userName: userName, email: email, password: password)
+            print(user.description)
+        }
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
