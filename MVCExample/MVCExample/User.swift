@@ -20,8 +20,8 @@ class User: NSObject {
     }
     
     override var description: String {
-        return  "Username: \(userName)" +
-                "Email \(email)" +
+        return  "Username: \(userName) " +
+                "Email \(email) " +
                 "Password \(password)"
     }
 }
